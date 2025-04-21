@@ -7,7 +7,7 @@
 
 Originally inspired by the need for a peaceful space for thought organization, Just Log has evolved into a fully functional personal growth platform. It allows not only me but anyone to track their daily habits, log private or public thoughts, reflect on emotional trends, and stay organized and productive.
 
-## Features & Technologies
+## Features & Technologies (might not include all)
 
 ### 1. **Journal System (Text + Voice)**
 - Write personal or public entries using a Markdown-based editor
