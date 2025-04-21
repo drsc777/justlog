@@ -1,6 +1,5 @@
 # Project Name: Just Log
 ## Design Mockup
-![Just Log Mockup](./mockup.png)
 <img src="./mockup.png" width="600" />
 ## Application Description
 
