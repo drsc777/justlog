@@ -82,14 +82,14 @@ Originally inspired by the need for a peaceful space for thought organization, J
 
 | Component           | Technology                        |
 |---------------------|------------------------------------|
-| Frontend            | React, Vite, TailwindCSS           |
-| State Management    | React Hooks / Zustand              |
+| Frontend            | React          |
+| State Management    | React Hooks           |
 | Voice Input         | Web Speech API                     |
 | Charts & Visuals    | Chart.js, Calendar Heatmap         |
-| Backend & Storage   | Firebase Firestore / Node + MongoDB|
+| Backend & Storage   | Firebase Firestore + MongoDB|
 | Authentication      | Firebase Auth                      |
 | Data Export         | Blob API + Markdown serialization  |
-| Deployment          | Netlify / Vercel                   |
+| Deployment          | Vercel                   |
 
 ---
 
