@@ -1,4 +1,6 @@
 # Project Name: Just Log
+## Design Mockup
+![Just Log Mockup](./mockup.png)
 
 ## Application Description
 
