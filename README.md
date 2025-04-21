@@ -1,7 +1,7 @@
 # Project Name: Just Log
 ## Design Mockup
 ![Just Log Mockup](./mockup.png)
-
+<img src="./mockup.png" width="600" />
 ## Application Description
 
 **Just Log** is a calm, minimalist web application built to be both a personal sanctuary and a productivity companion. It offers tools for journaling, inspiration capture, mood tracking, habit formation, focused work, and self-reflection — all in one place.
