@@ -1,0 +1,73 @@
+.habit-calendar {
+  margin-top: 20px;
+  border: 2px solid var(--border-color);
+  background-color: var(--section-bg);
+  padding: 15px;
+}
+
+.calendar-header {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.calendar-days-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 10px;
+}
+
+.day-name {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.calendar-day {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0e6;
+}
+
+.calendar-day.empty {
+  border: none;
+  background: none;
+  cursor: default;
+}
+
+.calendar-day.completed {
+  background-color: #1a1a1a;
+  color: white;
+  border-color: #1a1a1a;
+}
+
+.calendar-day.today {
+  border: 2px solid var(--border-color);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .calendar-day {
+    font-size: 0.8rem;
+  }
+} 

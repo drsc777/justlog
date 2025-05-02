@@ -82,16 +82,71 @@ Originally inspired by the need for a peaceful space for thought organization, J
 
 | Component           | Technology                        |
 |---------------------|------------------------------------|
-| Frontend            | React          |
-| State Management    | React Hooks           |
+| Frontend            | React                             |
+| State Management    | React Hooks                       |
 | Voice Input         | Web Speech API                     |
 | Charts & Visuals    | Chart.js, Calendar Heatmap         |
-| Backend & Storage   | Firebase Firestore + MongoDB|
-| Authentication      | Firebase Auth                      |
+| Backend & Storage   | Express + MongoDB (simulated)      |
+| Authentication      | Custom Auth (simulated)            |
 | Data Export         | Blob API + Markdown serialization  |
-| Deployment          | Vercel                   |
 
 ---
+
+## How to Run the Project
+
+### Prerequisites
+- Node.js and npm installed
+
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/justlog.git
+cd justlog
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+### Running the Application
+1. Start the development server (frontend)
+```bash
+npm start
+```
+
+2. Start the API server (backend)
+```bash
+npm run server
+```
+
+3. Or run both concurrently
+```bash
+npm run dev
+```
+
+### Building for Production
+```bash
+npm run build
+```
+
+The frontend will be available at http://localhost:3000 and the API server at http://localhost:5000.
+
+## Project Structure
+```
+justlog/
+├── public/               # Static files
+├── src/                  # Source code
+│   ├── api/              # API server and models
+│   ├── components/       # React components
+│   ├── pages/            # Page components
+│   ├── styles/           # CSS files
+│   ├── utils/            # Utility functions
+│   ├── App.js            # Main App component
+│   └── index.js          # Entry point
+├── package.json          # Project dependencies
+└── README.md             # Project documentation
+```
 
 ## Vision
 
