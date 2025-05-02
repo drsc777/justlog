@@ -69,12 +69,12 @@ Originally inspired by the need for a peaceful space for thought organization, J
 | Date       | Milestone                                             |
 |------------|--------------------------------------------------------|
 | Apr 21     | Submit project proposal and initial design mockup      |
-| Apr 22–25  | Build core structure: homepage, journal, inspiration   |
-| Apr 26–30  | Complete editor, voice input, Pomodoro, and mood chart |
-| May 1–3    | Implement To-Do, Habit Tracker, and reward system      |
-| May 4–6    | Develop comment system, user auth, and data export     |
-| May 7–9    | Public journal wall, polish UI, responsive design      |
-| May 10–12  | Final testing, bug fixing, deployment                  |
+| Apr 23  | Build core structure: homepage, journal, inspiration   |
+| Apr  25 | Complete editor, voice input, Pomodoro, and mood chart |
+| Apr 27    | Implement To-Do, Habit Tracker, and reward system      |
+| Apr 30  | Develop comment system, user auth, and data export     |
+| May 1    | Public journal wall, polish UI, responsive design      |
+| May 2| Final testing, bug fixing, deployment                  |
 
 ---
 
